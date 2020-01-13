@@ -1,0 +1,38 @@
+[
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7-ar/fpv3/softfp",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+            "-isystemd:\\program files\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include",
+            "-iquote./include",
+            "-iquote./include/./",
+            "-mcpu=cortex-a9",
+            "-mfpu=neon-fp16",
+            "-mfloat-abi=softfp",
+            "-Os",
+            "-g",
+            "-D_POSIX_THREADS",
+            "-D_UNIX98_THREAD_MUTEX_ATTRIBUTES",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-fdiagnostics-color",
+            "-funwind-tables",
+            "--std=gnu++17",
+            "-o",
+            "bin/main.cpp.o",
+            "src\\main.cpp"
+        ],
+        "directory": "C:\\Users\\gaznesiz_mahmut\\Desktop\\Eagle-Tech-Tower-Takeover-master",
+        "file": "src\\main.cpp"
+    }
+]
